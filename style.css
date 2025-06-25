@@ -408,18 +408,51 @@ form input, textarea{
 /* Footer Start */
 .footer-sec{
     margin-top: 80px;
-    margin-bottom: 20px;
 }
 
+.container{
+    background-color: #191A23 !important;
+    padding: 20px !important;
+    border-radius: 20px !important;
+}
 
+.contact-label {
+  margin-bottom: 20px;
+  color: #b9ff66;
+}
 
+footer .btn{
+    background-color: #b9ff66 !important;
+    color: #191A23 !important;
+}
 
+.logo-img {
+  width: 100%;
+  max-width: 150px;
+}
 
+.newsletter-form .form-control {
+  border: none;
+}
 
+.newsletter-form .btn-success {
+  white-space: nowrap;
+}
 
+.social-icons a {
+  font-size: 1.5rem;
+}
 
-
-
-
-
-/* Footer End */
+@media (max-width: 768px) {
+  .newsletter-form {
+    flex-direction: column;
+  }
+  .newsletter-form .btn-success {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .social-icons {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

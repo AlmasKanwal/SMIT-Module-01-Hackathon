@@ -130,7 +130,7 @@ header img{
 /* Working Process / FAQ Section End */
 
 /* Contact Section Start */
-@media (max-width: 768px) {
+@media (max-width: 915px) {
   .contact-box {
     flex-direction: column;
   }
